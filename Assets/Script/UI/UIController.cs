@@ -4,6 +4,7 @@
 
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -12,10 +13,9 @@ public class UIController : MonoBehaviour
     private GameManager gm;
     private PlayerController player;
 
-    public Text scoreText;
-    public Text speedText;
-    public Text secsText;
-    public Text secsDecimalText;
+    public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI secsText;
+    public TextMeshProUGUI secsDecimalText;
 
     // Start is called before the first frame update
     void Start()
@@ -28,7 +28,6 @@ public class UIController : MonoBehaviour
     void Update()
     {
         scoreText.text = "Score: " + gm.playerScore;
-        speedText.text = player.rigidBody.velocity.magnitude.ToString("F2") + "m/s"; // "F2" makes it so only 2 decimal points are displayed
 
         // If player's in a NORMAL state
         if (player.currentState == PlayerController.State.NORMAL || (player.currentState == PlayerController.State.DEAD && gm.timer <= 0.0f))
