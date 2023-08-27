@@ -35,7 +35,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 271.77, y: -145}
+  m_AnchoredPosition: {x: 271.77, y: -132.5}
   m_SizeDelta: {x: 543.5392, y: 231}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3040170376953791966
@@ -256,6 +256,7 @@ MonoBehaviour:
   scoreText: {fileID: 2308273222375524511}
   secsText: {fileID: 1576495555398992607}
   secsDecimalText: {fileID: 5837393047870415614}
+  ScoreSO: {fileID: 11400000, guid: a5e9468d931f67e4cb07d3d8562574d0, type: 2}
 --- !u!1 &4958991892382481857
 GameObject:
   m_ObjectHideFlags: 0
@@ -426,7 +427,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 248, y: -103.35}
+  m_AnchoredPosition: {x: 248, y: -90}
   m_SizeDelta: {x: 664.1365, y: 166.03412}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &39509556745759704

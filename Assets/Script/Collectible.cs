@@ -36,6 +36,9 @@ public class Collectible : MonoBehaviour
 
     public bool pickedUp;
 
+    [SerializeField]
+    private FloatSO ScoreSO;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -64,7 +67,8 @@ public class Collectible : MonoBehaviour
                     else
                     {
                         // Increment player score
-                        FindObjectOfType<GameManager>().playerScore++;
+                        //FindObjectOfType<GameManager>().playerScore++;
+                        ScoreSO.Value++;
                         // Destroy object
                         Destroy(gameObject);
                     }
