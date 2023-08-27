@@ -5,6 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class Menu : MonoBehaviour
 {
+    //If player clicks on play game button, it will start from tutorial stage
     public void onPlayButton()
     {
         SceneManager.LoadScene(1);
