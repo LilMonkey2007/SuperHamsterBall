@@ -26,11 +26,16 @@ public class GameManager : MonoBehaviour
 
     public float timer;
 
+    [SerializeField]
+    private FloatSO ScoreSO;
+
+    private float previousScore;
     // Start is called before the first frame update
     void Start()
     {
         player = FindObjectOfType<PlayerController>();  // Find player
         currentScene = SceneManager.GetActiveScene().name; // Get active scene name
+        previousScore = ScoreSO.Value;
     }
 
     // Update is called once per frame
@@ -45,6 +50,7 @@ public class GameManager : MonoBehaviour
                 if (player.transform.position.y < deathHeight.position.y || timer < 0.0f)
                 {
                     player.currentState = PlayerController.State.DEAD;  // Set player's state to DEAD
+                    ScoreSO.Value = previousScore;
                     StartCoroutine(FallingProcedure());                 // Start falling procedure
                 }
                 break;
