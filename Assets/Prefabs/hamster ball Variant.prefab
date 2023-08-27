@@ -10,7 +10,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 05525d53d04868b49a7dfd987f5079f0, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 05525d53d04868b49a7dfd987f5079f0, type: 3}
       propertyPath: m_LocalScale.x
@@ -81,6 +81,9 @@ PrefabInstance:
       addedObject: {fileID: 2531641967405948885}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 05525d53d04868b49a7dfd987f5079f0, type: 3}
       insertIndex: -1
+      addedObject: {fileID: 2931359151209603271}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 05525d53d04868b49a7dfd987f5079f0, type: 3}
+      insertIndex: -1
       addedObject: {fileID: 4234908214593997040}
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 05525d53d04868b49a7dfd987f5079f0, type: 3}
       insertIndex: -1
@@ -113,6 +116,18 @@ MonoBehaviour:
   maxSpeed: 100
   moveForce: 15
   victoryForce: 25
+--- !u!114 &2931359151209603271
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453707480262582195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b3ef6aa317e756408c9d430fc767859, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &4234908214593997040
 SphereCollider:
   m_ObjectHideFlags: 0

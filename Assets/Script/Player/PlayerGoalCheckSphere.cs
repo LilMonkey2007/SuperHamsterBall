@@ -1,21 +1,16 @@
-﻿/**
- * Checks if the player has passed through the goal
- */
-
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class  PlayerGoalCheckSphere : MonoBehaviour
+public class PlayerGoalCheckSphere : MonoBehaviour
 {
     private PlayerController player;
 
     private void Start()
     {
-        player = transform.parent.GetComponent<PlayerController>(); // Get PlayerController component from parent
+        player = GetComponent<PlayerController>(); // Get PlayerController component from the same GameObject
     }
 
-    // Start is called before the first frame update
     public void OnTriggerEnter(Collider other)
     {
         // Trigger collides with object tagged as ExitPortal and their current state is NORMAL
