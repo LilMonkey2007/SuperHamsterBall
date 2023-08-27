@@ -1852,7 +1852,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveDistance: 20
   moveSpeed: 5
-  maxRightPosition: 1.25
+  maxRightPosition: 0
 --- !u!1 &771566447
 GameObject:
   m_ObjectHideFlags: 0
@@ -2918,7 +2918,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveDistance: 20
   moveSpeed: 5
-  maxLeftPosition: 1.25
+  maxLeftPosition: 0
 --- !u!1 &1433376947
 GameObject:
   m_ObjectHideFlags: 0

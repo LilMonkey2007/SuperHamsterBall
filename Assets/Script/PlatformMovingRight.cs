@@ -6,7 +6,7 @@ public class PlatformMovingRight : MonoBehaviour
 {
     public float moveDistance = 20.0f; // Distance to move left and right
     public float moveSpeed = 5.0f;    // Speed of movement
-    public float maxLeftPosition = 1.25f; // Maximum position to the left
+    public float maxLeftPosition = 0.0f; // Maximum position to the left
 
     private Vector3 originalPosition;
     private Vector3 leftTargetPosition;
