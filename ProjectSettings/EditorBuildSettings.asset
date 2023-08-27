@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Congrats Screen.unity
     guid: a77571cda50747e4797541b5f7e4fd5e
+  - enabled: 1
+    path: Assets/Scenes/Leaderboard.unity
+    guid: e920aff0b5235524895c71ff21873e37
   m_configObjects: {}

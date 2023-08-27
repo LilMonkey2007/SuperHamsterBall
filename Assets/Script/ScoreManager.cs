@@ -9,11 +9,10 @@ public class ScoreManager : MonoBehaviour
 
     public UnityEvent<string, int> submitScoreEvent;
 
-  //  [SerializeField]
-  //  private FloatSO ScoreSO;
+    [SerializeField]
+    private FloatSO ScoreSO;
 
-    public void SubmitScore()
+   public void SubmitScore()
     {
-        submitScoreEvent.Invoke(inputName.text,int.Parse(ScoreSO.Value));
     }
 }
