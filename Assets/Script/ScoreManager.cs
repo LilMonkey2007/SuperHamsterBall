@@ -7,10 +7,10 @@ public class ScoreManager : MonoBehaviour
     [SerializeField]
     private TMP_InputField inputName;
 
-    public UnityEvent<string, int> submitScoreEvent;
-
     [SerializeField]
     private FloatSO ScoreSO;
+
+    public UnityEvent<string, int> submitScoreEvent;
 
    public void SubmitScore()
     {
