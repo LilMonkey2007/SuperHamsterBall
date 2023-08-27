@@ -5,11 +5,12 @@ using TMPro;
 
 public class DisplayScore : MonoBehaviour
 {
-    [SerializeField]
-    private FloatSO ScoreSO;
 
     [SerializeField]
     public TMP_Text scoreText;
+
+    [SerializeField]
+    private FloatSO ScoreSO;
 
     private void Start()
     {
