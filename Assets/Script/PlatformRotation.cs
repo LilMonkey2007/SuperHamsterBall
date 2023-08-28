@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class PlatformRotation : MonoBehaviour
 {
-    public float rollSpeed = 10.0f; // Speed of rolling in degrees per second
+    public float rollSpeed = 5.0f; // Speed of rolling in degrees per second
     public float minRoll = -25.0f;  // Minimum rolling angle
     public float maxRoll = 25.0f;   // Maximum rolling angle
 
-    private float currentRoll = 0.0f;
+    private float currentRoll = 0.0f; // Starting positon
     private bool rollingForward = true;
 
     private void Update()
@@ -22,14 +22,14 @@ public class PlatformRotation : MonoBehaviour
         // Update the current roll
         currentRoll += rollDirection * rollAmount;
 
-        // Ensure rolling stays within the specified range
+        // Ensure that the rolling stays within the specified range
         currentRoll = Mathf.Clamp(currentRoll, minRoll, maxRoll);
 
         // Apply the rotation
         transform.rotation = Quaternion.Euler(0, currentRoll, 0);
 
         // Check for direction change
-        if (currentRoll >= maxRoll || currentRoll <= minRoll)
+        if (currentRoll >= maxRoll || currentRoll <= minRoll) // Changes direction when the platform hits -25 OR 25 on the Y rotation
         {
             rollingForward = !rollingForward;
         }

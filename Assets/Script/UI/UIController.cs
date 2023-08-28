@@ -14,12 +14,13 @@ public class UIController : MonoBehaviour
     private PlayerController player;
 
     public TextMeshProUGUI scoreText;
+    public TextMeshProUGUI totalScoreText;
     public TextMeshProUGUI secsText;
     public TextMeshProUGUI secsDecimalText;
 
 
     [SerializeField]
-    private FloatSO ScoreSO;
+    private FloatSO ScoreSO,TotalSO;
 
     // Start is called before the first frame update
     void Start()
@@ -31,7 +32,8 @@ public class UIController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        scoreText.text = "Score: " + ScoreSO.Value;
+        scoreText.text = "Seeds: " + ScoreSO.Value;
+        totalScoreText.text = "Score: " + TotalSO.Value;
 
         // If player's in a NORMAL state
         if (player.currentState == PlayerController.State.NORMAL || (player.currentState == PlayerController.State.DEAD && gm.timer <= 0.0f))

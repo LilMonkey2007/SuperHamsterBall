@@ -27,9 +27,11 @@ public class GameManager : MonoBehaviour
     public float timer;
 
     [SerializeField]
-    private FloatSO ScoreSO;
+    private FloatSO ScoreSO, TotalSO;
 
     private float previousScore;
+    private float stageScore;
+    private int multiplier;
 
     // Start is called before the first frame update
     void Start()
@@ -37,6 +39,7 @@ public class GameManager : MonoBehaviour
         player = FindObjectOfType<PlayerController>();  // Find player
         currentScene = SceneManager.GetActiveScene().name; // Get active scene name
         previousScore = ScoreSO.Value;
+        stageScore = 0;
     }
 
     // Update is called once per frame
@@ -52,6 +55,7 @@ public class GameManager : MonoBehaviour
                 {
                     player.currentState = PlayerController.State.DEAD;  // Set player's state to DEAD
                     ScoreSO.Value = previousScore;
+                    stageScore = 0;
                     StartCoroutine(FallingProcedure());                 // Start falling procedure
                 }
                 break;
@@ -81,6 +85,11 @@ public class GameManager : MonoBehaviour
     {
         mainCam.enabled = false;    // Disable main camera
         victoryCam.enabled = true;  // Enable victory camera
+        int pickups = (int)(ScoreSO.Value - previousScore);
+
+        multiplier = (pickups > 1) ? pickups : 1;
+        stageScore = multiplier * timer;
+        TotalSO.Value += stageScore;
 
         // Wait 2.0 secs then load the next scene
         yield return new WaitForSeconds(2.0f);
