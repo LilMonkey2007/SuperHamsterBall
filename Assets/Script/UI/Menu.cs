@@ -9,6 +9,8 @@ public class Menu : MonoBehaviour
     private GameObject mainMenu;
     [SerializeField]
     private GameObject selectStage;
+    [SerializeField]
+    private GameObject settings;
 
     //If player clicks on play game button, it will start from tutorial stage
     public void onPlayButton()
@@ -27,5 +29,13 @@ public class Menu : MonoBehaviour
     {
         mainMenu.SetActive(false);
         selectStage.SetActive(true);
+        settings.SetActive(false);
+    }
+
+    public void onSettingsButton()
+    {
+        mainMenu.SetActive(false);
+        selectStage.SetActive(false);
+        settings.SetActive(true);
     }
 }
