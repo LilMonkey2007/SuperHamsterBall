@@ -98,7 +98,7 @@ LightmapSettings:
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 0}
-  m_LightingSettings: {fileID: 0}
+  m_LightingSettings: {fileID: 4890085278179872738, guid: 8e6cb381056b0264899f5bedf6224db5, type: 2}
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -3023,14 +3023,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8a2a72167dff4345a9c8b61cea447f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: Leaderboard
+  nextScene: Stage 9
   mainCam: {fileID: 1204097784}
   victoryCam: {fileID: 1269687748}
   deathHeight: {fileID: 237008284}
   playerScore: 0
   timer: 60
   ScoreSO: {fileID: 11400000, guid: a5e9468d931f67e4cb07d3d8562574d0, type: 2}
-  TotalSO: {fileID: 0}
+  TotalSO: {fileID: 11400000, guid: a848ca556c755f7449fd1ae73a3063df, type: 2}
 --- !u!4 &1076863544
 Transform:
   m_ObjectHideFlags: 0
@@ -4053,15 +4053,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7727196866174698798, guid: 10b1bb25ea85480478c58a6837173b5a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.11
+      value: -4.95
       objectReference: {fileID: 0}
     - target: {fileID: 7727196866174698798, guid: 10b1bb25ea85480478c58a6837173b5a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.2399993
+      value: -4.35
       objectReference: {fileID: 0}
     - target: {fileID: 7727196866174698798, guid: 10b1bb25ea85480478c58a6837173b5a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 19.67
+      value: 20.08
       objectReference: {fileID: 0}
     - target: {fileID: 7727196866174698798, guid: 10b1bb25ea85480478c58a6837173b5a, type: 3}
       propertyPath: m_LocalRotation.w
