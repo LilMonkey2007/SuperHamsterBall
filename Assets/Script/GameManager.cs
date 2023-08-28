@@ -30,6 +30,7 @@ public class GameManager : MonoBehaviour
     private FloatSO ScoreSO;
 
     private float previousScore;
+
     // Start is called before the first frame update
     void Start()
     {
