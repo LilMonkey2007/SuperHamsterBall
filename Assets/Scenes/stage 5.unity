@@ -153,7 +153,7 @@ Transform:
   m_Children:
   - {fileID: 1600935213}
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &45411451 stripped
 GameObject:
@@ -399,7 +399,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6892062228157219699, guid: 74c47af6257c8a742b1f7a586ebd7b87, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6892062228157219699, guid: 74c47af6257c8a742b1f7a586ebd7b87, type: 3}
       propertyPath: m_LocalPosition.x
@@ -522,7 +522,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 3403082807186976464, guid: f949c326c24633d4cbb61efe797a7195, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3403082807186976464, guid: f949c326c24633d4cbb61efe797a7195, type: 3}
       propertyPath: m_LocalPosition.x
@@ -973,7 +973,7 @@ Transform:
   - {fileID: 1439542191}
   - {fileID: 1286954271731322061}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1926903796 stripped
 GameObject:
@@ -1016,7 +1016,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6892062228157219699, guid: 3d5c0eb747cba054d87f8ad6c12e20b7, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6892062228157219699, guid: 3d5c0eb747cba054d87f8ad6c12e20b7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1183,7 +1183,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6892062228157219699, guid: 23222ddc458359748b1aac851173ffe8, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6892062228157219699, guid: 23222ddc458359748b1aac851173ffe8, type: 3}
       propertyPath: m_LocalPosition.x
