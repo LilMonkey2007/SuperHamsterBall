@@ -1182,13 +1182,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b8a2a72167dff4345a9c8b61cea447f1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: 
+  nextScene: Stage 5
   mainCam: {fileID: 1204097784}
   victoryCam: {fileID: 1269687748}
   deathHeight: {fileID: 237008284}
   playerScore: 0
   timer: 60
   ScoreSO: {fileID: 11400000, guid: a5e9468d931f67e4cb07d3d8562574d0, type: 2}
+  TotalSO: {fileID: 11400000, guid: a848ca556c755f7449fd1ae73a3063df, type: 2}
 --- !u!4 &1076863544
 Transform:
   m_ObjectHideFlags: 0

@@ -54,6 +54,7 @@ public class GameManager : MonoBehaviour
                 {
                     player.currentState = PlayerController.State.DEAD;  // Set player's state to DEAD
                     ScoreSO.Value = previousScore;
+                    stageScore = 0;
                     StartCoroutine(FallingProcedure());                 // Start falling procedure
                 }
                 break;
@@ -83,7 +84,7 @@ public class GameManager : MonoBehaviour
     {
         mainCam.enabled = false;    // Disable main camera
         victoryCam.enabled = true;  // Enable victory camera
-        stageScore = ScoreSO.Value * timer;
+        stageScore = (ScoreSO.Value - previousScore) * timer;
         TotalSO.Value += stageScore;
 
         // Wait 2.0 secs then load the next scene
