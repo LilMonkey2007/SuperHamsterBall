@@ -36,8 +36,23 @@ public class SelectStage : MonoBehaviour
         SceneManager.LoadScene(4);
     }
 
-    public void onStage8Button()
+    public void onStage4Button()
     {
         SceneManager.LoadScene(5);
+    }
+
+    public void onStage5Button()
+    {
+        SceneManager.LoadScene(6);
+    }
+
+    public void onStage6Button()
+    {
+        SceneManager.LoadScene(7);
+    }
+
+    public void onStage8Button()
+    {
+        SceneManager.LoadScene(8);
     }
 }
