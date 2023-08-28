@@ -2579,6 +2579,7 @@ MonoBehaviour:
   playerScore: 0
   timer: 60
   ScoreSO: {fileID: 11400000, guid: a5e9468d931f67e4cb07d3d8562574d0, type: 2}
+  TotalSO: {fileID: 0}
 --- !u!4 &1076863544
 Transform:
   m_ObjectHideFlags: 0
@@ -3911,6 +3912,10 @@ PrefabInstance:
     - target: {fileID: 5767269617056032330, guid: 10cd586097e13fe4dbe4365a749732ac, type: 3}
       propertyPath: m_Name
       value: Music AudioSource
+      objectReference: {fileID: 0}
+    - target: {fileID: 6818571168663055090, guid: 10cd586097e13fe4dbe4365a749732ac, type: 3}
+      propertyPath: Mute
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
