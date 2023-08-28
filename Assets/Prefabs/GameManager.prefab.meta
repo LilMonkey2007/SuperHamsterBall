@@ -1,6 +1,12 @@
 fileFormatVersion: 2
-guid: 392e846b932296947bf654d05b23d020
+<<<<<<<< Updated upstream:Assets/Prefabs/GameManager.prefab.meta
+guid: 10f118b16fb3447459bf8f1380296724
 PrefabImporter:
+========
+guid: cd63fb05ab3bbcd4788fc7182072175a
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> Stashed changes:Assets/Prefabs/racing-ramp.meta
   externalObjects: {}
   userData: 
   assetBundleName: 
