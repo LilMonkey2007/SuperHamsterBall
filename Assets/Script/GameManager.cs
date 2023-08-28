@@ -31,6 +31,7 @@ public class GameManager : MonoBehaviour
 
     private float previousScore;
     private float stageScore;
+    private int multiplier;
 
     // Start is called before the first frame update
     void Start()
@@ -84,7 +85,10 @@ public class GameManager : MonoBehaviour
     {
         mainCam.enabled = false;    // Disable main camera
         victoryCam.enabled = true;  // Enable victory camera
-        stageScore = (ScoreSO.Value - previousScore) * timer;
+        int pickups = (int)(ScoreSO.Value - previousScore);
+
+        multiplier = (pickups > 1) ? pickups : 1;
+        stageScore = multiplier * timer;
         TotalSO.Value += stageScore;
 
         // Wait 2.0 secs then load the next scene
