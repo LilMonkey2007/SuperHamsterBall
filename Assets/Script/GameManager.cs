@@ -2,6 +2,7 @@
  * This component handles player score and loading\reloading scenes depending if the player loses or wins a stage.
  */
 
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -86,10 +87,15 @@ public class GameManager : MonoBehaviour
         mainCam.enabled = false;    // Disable main camera
         victoryCam.enabled = true;  // Enable victory camera
         int pickups = (int)(ScoreSO.Value - previousScore);
+        multiplier = (pickups < 1) ? 1 : pickups;
 
-        multiplier = (pickups > 1) ? pickups : 1;
+        if (timer > 45.0f)
+            multiplier *= 2;
+        else if (timer > 30.0f)
+            multiplier = (int)(multiplier*1.5);
+
         stageScore = multiplier * timer;
-        TotalSO.Value += stageScore;
+        TotalSO.Value += (int)stageScore;
 
         // Wait 2.0 secs then load the next scene
         yield return new WaitForSeconds(2.0f);

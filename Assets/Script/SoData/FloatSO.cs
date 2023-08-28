@@ -6,11 +6,11 @@ using UnityEngine;
 public class FloatSO : ScriptableObject
 {
     [SerializeField]
-    private int _value;
+    private float _value;
 
     public float Value
     {
         get { return _value; }
-        set { _value = (int)value; }
+        set { _value = value; }
     }
 }
