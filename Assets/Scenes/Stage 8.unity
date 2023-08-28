@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.5987817, g: 0.8211902, b: 0.9409539, a: 1}
+  m_IndirectSpecularColor: {r: 0.5987141, g: 0.8211878, b: 0.94098276, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2054,7 +2054,6 @@ Transform:
   - {fileID: 620290443}
   - {fileID: 1886516314}
   - {fileID: 580396306}
-  - {fileID: 1959193815}
   - {fileID: 672534482}
   - {fileID: 1620732124}
   m_Father: {fileID: 0}
@@ -2267,6 +2266,7 @@ MonoBehaviour:
   playerScore: 0
   timer: 60
   ScoreSO: {fileID: 11400000, guid: a5e9468d931f67e4cb07d3d8562574d0, type: 2}
+  TotalSO: {fileID: 0}
 --- !u!4 &1076863544
 Transform:
   m_ObjectHideFlags: 0
@@ -3372,7 +3372,6 @@ Transform:
   - {fileID: 2135920257}
   - {fileID: 1284172893}
   - {fileID: 1142682021}
-  - {fileID: 1950116194}
   - {fileID: 1076863544}
   - {fileID: 237008284}
   - {fileID: 1439542191}
