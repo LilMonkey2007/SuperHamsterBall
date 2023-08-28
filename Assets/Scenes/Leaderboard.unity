@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47a2c99ce24e0b948828831feed97aab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScoreSO: {fileID: 11400000, guid: a5e9468d931f67e4cb07d3d8562574d0, type: 2}
+  ScoreSO: {fileID: 11400000, guid: a848ca556c755f7449fd1ae73a3063df, type: 2}
   scoreText: {fileID: 9057959}
 --- !u!1 &91136759
 GameObject:
@@ -2755,7 +2755,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   inputName: {fileID: 1810941443}
-  ScoreSO: {fileID: 11400000, guid: a5e9468d931f67e4cb07d3d8562574d0, type: 2}
+  ScoreSO: {fileID: 11400000, guid: a848ca556c755f7449fd1ae73a3063df, type: 2}
   submitScoreEvent:
     m_PersistentCalls:
       m_Calls:
