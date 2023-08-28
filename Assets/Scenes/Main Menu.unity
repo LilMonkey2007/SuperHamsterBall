@@ -4558,6 +4558,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ScoreSO: {fileID: 11400000, guid: a5e9468d931f67e4cb07d3d8562574d0, type: 2}
+  TotalSO: {fileID: 11400000, guid: a848ca556c755f7449fd1ae73a3063df, type: 2}
 --- !u!4 &1784688093
 Transform:
   m_ObjectHideFlags: 0
