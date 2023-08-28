@@ -19,7 +19,6 @@ public class PauseMenu : MonoBehaviour
     [SerializeField]
     private AudioSource sfxAudioSource;
 
-
     // Start is called before the first frame update
     void Start()
     {
