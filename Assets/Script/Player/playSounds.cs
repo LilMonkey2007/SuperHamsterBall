@@ -8,8 +8,6 @@ public class playSounds : MonoBehaviour
     private AudioSource audioSource;
     private PlayerController player;
     [SerializeField]
-    private AudioClip runSound;
-    [SerializeField]
     private AudioClip deathSound;
     [SerializeField]
     private AudioClip victorySound;
@@ -26,12 +24,6 @@ public class playSounds : MonoBehaviour
     {
         switch(player.currentState)
         {
-            case PlayerController.State.NORMAL:
-                audioSource.Stop();
-                audioSource.clip = runSound;
-                audioSource.loop = true;
-                audioSource.Play();
-                break;
             case PlayerController.State.DEAD :
                 audioSource.PlayOneShot(deathSound);
                 break;
