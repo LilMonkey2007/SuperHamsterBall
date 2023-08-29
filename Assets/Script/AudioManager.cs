@@ -26,11 +26,4 @@ public class AudioManager : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-    public void PlaySFX(float volume)
-    {
-        Debug.Log("In AudioManager");
-        sfx.volume = volume;
-        sfx.PlayOneShot(pickup);
-    }
 }
