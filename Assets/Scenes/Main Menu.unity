@@ -1648,7 +1648,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 707040726}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 48278850}
+        m_TargetAssemblyTypeName: SelectStage, Assembly-CSharp
+        m_MethodName: onStage9Button
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &707040726
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2039,7 +2051,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 726376412}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 48278850}
+        m_TargetAssemblyTypeName: SelectStage, Assembly-CSharp
+        m_MethodName: onStage7Button
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &726376412
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3268,7 +3292,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1246552947}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 48278850}
+        m_TargetAssemblyTypeName: SelectStage, Assembly-CSharp
+        m_MethodName: onStage4Button
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1246552947
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3661,7 +3697,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1334280542}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 48278850}
+        m_TargetAssemblyTypeName: SelectStage, Assembly-CSharp
+        m_MethodName: onStage5Button
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1334280542
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4221,7 +4269,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1706176060}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 48278850}
+        m_TargetAssemblyTypeName: SelectStage, Assembly-CSharp
+        m_MethodName: onStage6Button
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1706176060
 MonoBehaviour:
   m_ObjectHideFlags: 0
