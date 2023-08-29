@@ -1240,11 +1240,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 741652206}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1b6fddf2126e1a646818922b66186e4a, type: 3}
+  m_Script: {fileID: 11500000, guid: ee2093a6fb80d104dba95cf3704fcb29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveDistance: 1.5
-  moveSpeed: 2
+  rollSpeed: 10
+  minRoll: -25
+  maxRoll: 25
 --- !u!1001 &889551795
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3148,6 +3149,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player HUD
       objectReference: {fileID: 0}
+    - target: {fileID: 3678204366024900582, guid: b3a1e2d3e3a164440a353e6c7327e573, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3678204366024900582, guid: b3a1e2d3e3a164440a353e6c7327e573, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3678204366024900582, guid: b3a1e2d3e3a164440a353e6c7327e573, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3678204366024900582, guid: b3a1e2d3e3a164440a353e6c7327e573, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3678204366024900582, guid: b3a1e2d3e3a164440a353e6c7327e573, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 136
+      objectReference: {fileID: 0}
+    - target: {fileID: 3678204366024900582, guid: b3a1e2d3e3a164440a353e6c7327e573, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -33
+      objectReference: {fileID: 0}
     - target: {fileID: 4213289593926211712, guid: b3a1e2d3e3a164440a353e6c7327e573, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3239,6 +3264,30 @@ PrefabInstance:
     - target: {fileID: 6482300828833431118, guid: b3a1e2d3e3a164440a353e6c7327e573, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -89.350006
+      objectReference: {fileID: 0}
+    - target: {fileID: 7001658764244167335, guid: b3a1e2d3e3a164440a353e6c7327e573, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7001658764244167335, guid: b3a1e2d3e3a164440a353e6c7327e573, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7001658764244167335, guid: b3a1e2d3e3a164440a353e6c7327e573, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7001658764244167335, guid: b3a1e2d3e3a164440a353e6c7327e573, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7001658764244167335, guid: b3a1e2d3e3a164440a353e6c7327e573, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 136
+      objectReference: {fileID: 0}
+    - target: {fileID: 7001658764244167335, guid: b3a1e2d3e3a164440a353e6c7327e573, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -91.99997
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
