@@ -16,12 +16,14 @@ public class PauseMenu : MonoBehaviour
     private Slider musicSlider;
     [SerializeField]
     private Slider sfxSlider;
-    [SerializeField]
-    private AudioSource sfxAudioSource;
+
+    private AudioSource sfxSource;
 
     // Start is called before the first frame update
     void Start()
     {
+        sfxSource = GameObject.FindGameObjectWithTag("SFX").GetComponent<AudioSource>();
+
         if (PlayerPrefs.HasKey("musicVolume"))
         {
             loadVolume();
@@ -48,8 +50,8 @@ public class PauseMenu : MonoBehaviour
 
     public void playSFX()
     {
-        sfxAudioSource.volume = sfxSlider.value;
-        sfxAudioSource.Play();
+        sfxSource.volume = sfxSlider.value;
+        sfxSource.Play();
     }
 
     private void loadVolume()
