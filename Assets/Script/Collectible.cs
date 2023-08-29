@@ -69,6 +69,7 @@ public class Collectible : MonoBehaviour
                         // Increment player score
                         //FindObjectOfType<GameManager>().playerScore++;
                         ScoreSO.Value++;
+                        Debug.Log("ScoreSO in collectible: " + ScoreSO.Value);
                         // Destroy object
                         Destroy(gameObject);
                     }

@@ -62,7 +62,11 @@ public class GameManager : MonoBehaviour
                 break;
             case PlayerController.State.VICTORY:
                 if (victoryCoroutine == null)
-                    victoryCoroutine = StartCoroutine(Victory());       // Start victory procedure
+                {
+                    Debug.Log("ScoreSO inside update:" + ScoreSO.Value);
+                    victoryCoroutine = StartCoroutine(Victory());
+                }
+                           // Start victory procedure
                 break;
         }
     }
@@ -93,7 +97,7 @@ public class GameManager : MonoBehaviour
             multiplier *= 2;
         else if (timer > 30.0f)
             multiplier = (int)(multiplier*1.5);
-
+        
         stageScore = multiplier * timer;
         TotalSO.Value += (int)stageScore;
 
